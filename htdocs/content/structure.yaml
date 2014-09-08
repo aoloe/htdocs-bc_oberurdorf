@@ -1,0 +1,54 @@
+home:
+    navigation: 
+        url: /
+        label: Home
+    module:
+        name: Home
+programm:
+    navigation: 
+        label: Programm
+    module:
+        name: Calendar
+        parameter:
+            sidebar:
+                markdown : 
+                    - |
+                        [![Jahresprogramm](content/page/verein_icon_pdf.gif)](content/download/bc_oberurdorf_statuten.pdf)
+
+                        [Aktuelles Jahresprogramm](content/download/bc_oberurdorf_programm.pdf)
+                    - |
+                        [![Jahresprogramm](content/page/verein_icon_pdf.gif)](content/download/bc_oberurdorf_statuten.pdf)
+
+                        [Aktuelles Jahresprogramm als ICAL](content/download/bc_oberurdorf_programm.pdf)
+spielort:
+    navigation: 
+        label: Spielort
+    module:
+        parameter:
+            sidebar:
+                markdown : |
+                    Kantonsschule Limmattal<br>
+                    In der Luberzen 34<br>
+                    8902 Urdorf
+                picture:
+                    "Mit dem Auto": spielort_auto_300.png
+                    "Mit dem Bus": spielort_ov_300.png
+                    "Mit dem Zug": spielort_sbb_300.png
+verein:
+    navigation: 
+        label: Verein
+    module:
+        parameter:
+            sidebar:
+                markdown : 
+                    - |
+                        [![Statuten](content/page/verein_icon_pdf.gif)](content/download/bc_oberurdorf_statuten.pdf)
+
+                        [Statuten](content/download/bc_oberurdorf_statuten.pdf)
+                    - |
+                        [![Beitritt](content/page/verein_icon_doc.gif)](content/download/bc_oberurdorf_beitritt.doc)
+
+                        [Beitrittserklärung](content/download/bc_oberurdorf_beitritt.doc)
+kontakt:
+    navigation: 
+        label: Kontakt

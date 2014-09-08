@@ -1,0 +1,36 @@
+/* for the list of pictures in the sidebar */
+.row_image p
+{
+        margin-left: 0px;
+}
+
+.row_text p
+{
+        margin-left: 0px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+h1 {
+    padding-bottom:2em;
+}
+
+h2 {
+    padding-top:1em;
+    font-size:1.5em;
+    padding-bottom:0.5em;
+}
+
+.column1 a {
+    text-decoration:underline;
+}
+
+footer {
+    height:100px;
+}

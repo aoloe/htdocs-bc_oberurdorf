@@ -34,7 +34,9 @@ To minimize the amount of HTTP requests combine all CSS files into one single fi
         <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
         <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+        <?php if (false) : ?>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+        <?php endif ; ?>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         
         <script src="js/modernizr.js"></script>
@@ -42,9 +44,14 @@ To minimize the amount of HTTP requests combine all CSS files into one single fi
 
         
         <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+        <?php if (false) : ?> 
         <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
-        
+        <?php else : ?>
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <?php endif; ?>
+        <?php /*
+        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js\/2.1.1.jquery.min"><\/script>')</script>
+        */ ?>
         <script src="lightbox/js/lightbox.js"></script>
         <script src="js/prefixfree.min.js"></script>
         <script src="js/jquery.slides.min.js"></script>
@@ -119,7 +126,7 @@ $(document).ready(function() {
 	<body>
         <header>
             <h1 class="hidden">Badmintonclub Oberurdorf</h1>
-            <p></p>
+            <p><img src="img/bc-oberurdorf_75.png" style="width:75px;"></p>
             
             <select id="alternative_menu" size="1">
                 <option>Home</option>
@@ -165,9 +172,9 @@ $(document).ready(function() {
                 <a class="button" href="javascript:void(0)">Mehr lesen</a>
             </article>
             <div id="slides">
-                <img src="img/slide1.jpg" alt="Some alt text">
-                <img src="img/slide2.jpg" alt="Some alt text">    	
-                <img src="img/slide3.jpg" alt="Some alt text">
+                <img src="img/banner_boden.jpg" alt="Some alt text">
+                <img src="img/banner_shuttle.jpg" alt="Some alt text">    	
+                <img src="img/banner_turnhalle.jpg" alt="Some alt text">
             </div>
         </section>
         <section id="spacer">  

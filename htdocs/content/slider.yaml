@@ -1,0 +1,14 @@
+- title: Sport, Spiel, Spass
+  teaser: Wir haben einfach den Plausch am Sport, möchten regelmässig spielen, aber ohne Verpflichtung, Aemter und Turniere.
+  image: banner_boden.jpg
+- title: Nächste Trainings
+  module: Calendar
+  image: banner_shuttle.jpg
+  link: programm
+- title: Sporthalle Kanti Urdorf
+  teaser: |
+        Kantonsschule Limmattal<br>
+        In der Luberzen 34<br>
+        Alte Turnhalle
+  image: banner_turnhalle.jpg
+  link: spielort
