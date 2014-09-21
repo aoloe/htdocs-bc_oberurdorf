@@ -28,7 +28,7 @@ class ICS_Feed extends Aoloe\Module_abstract {
 
         $template = new Aoloe\Template();
         $template->set('event', $event);
-        echo $template->fetch('template/ics_feed.php');
+        echo(str_replace("\n", "\r\n", $template->fetch('template/ics_feed.php')));
 
         return null;
     }
