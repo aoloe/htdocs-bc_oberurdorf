@@ -16,7 +16,7 @@ class ICS_Feed extends Aoloe\Module_abstract {
                 'id' => base64_encode($item['date'].$item['title']).'@bc-oberurdorf.ch',
                 'timestamp' => $this->get_ics_date_from_iso($calendar->get_modification_date()),
                 'location' => $this->get_string_escaped($item['location']),
-                'description' => $this->get_string_escaped($item['description']),
+                'description' => $this->get_string_escaped(empty($item['description']) ? $item['title'] : $item['description']),
                 'url' => 'http://bc-oberurdorf.ch/programm', // TOOO: or something else?
                 'summary' => $this->get_string_escaped($item['title']),
             );
