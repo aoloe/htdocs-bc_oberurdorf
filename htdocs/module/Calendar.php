@@ -141,9 +141,11 @@ class Calendar extends Aoloe\Module_abstract {
     }
 
     public function get() {
-        return array_map(function($item) {
-            return $this->get_filled($item);
-        }, $this->calendar);
+        $result = array();
+        foreach ($this->calendar as $item) {
+            $result[] = $this->get_filled($item);
+        }
+        return $result;
     }
 
 
