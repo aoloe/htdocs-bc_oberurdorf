@@ -24,7 +24,7 @@ class ICS_Feed extends Aoloe\Module_abstract {
         // Aoloe\debug('event', $event);
         
         header('Content-type: text/calendar; charset=utf-8');
-        header('Content-Disposition: attachment; filename=' . $filename);
+        header('Content-Disposition: attachment; filename=' . 'bc-oberurdorf.ics');
 
         $template = new Aoloe\Template();
         $template->set('event', $event);
