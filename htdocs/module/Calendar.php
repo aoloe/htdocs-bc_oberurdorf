@@ -25,12 +25,16 @@ class Calendar extends Aoloe\Module_abstract {
     private $unpublish_age = 63072000; // 60*60*24*365*2 = 2 years
     private $sidebar = null;
     public function set_sidebar($sidebar) {$this->sidebar = $sidebar;}
+    /** TODO: move the reading of the calendar file out of the constructor */
     public function __construct() {
         if (file_exists($this->calendar_file)) {
             $this->calendar = file_get_contents($this->calendar_file);
             $this->calendar = Spyc::YAMLLoadString($this->calendar);
         }
         // debug('calendar', $this->calendar);
+    }
+    public function get_modification_date() {
+        return date('Ymd His', filemtime($this->calendar_file));
     }
     public function get_content() {
         $result = "";
@@ -135,6 +139,13 @@ class Calendar extends Aoloe\Module_abstract {
         // Aoloe\debug('result', $result);
         return $result;
     }
+
+    public function get() {
+        return array_map(function($item) {
+            return $this->get_filled($item);
+        }, $this->calendar);
+    }
+
 
     private $german_day = array ('Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag');
     private $german_month = array ('Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember');

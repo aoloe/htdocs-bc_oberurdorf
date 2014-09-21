@@ -4,6 +4,9 @@ home:
         label: Home
     module:
         name: Home
+programm.ics:
+    module:
+        name: ICS_Feed
 programm:
     navigation: 
         label: Programm
