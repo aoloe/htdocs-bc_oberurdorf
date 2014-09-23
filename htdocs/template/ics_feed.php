@@ -7,7 +7,6 @@ X-WR-CALNAME:Trainings beim BC-Oberurdorf
 X-WR-TIMEZONE:UTC
 X-WR-CALDESC:Trainings beim BC-Oberurdorf
 <?php foreach ($event as $item) : ?>
-
 BEGIN:VEVENT
 DTSTART:<?= $item['start'] ?>
 
@@ -27,5 +26,4 @@ SUMMARY:<?= $item['summary'] ?>
 
 END:VEVENT
 <?php endforeach ?>
-
 END:VCALENDAR
