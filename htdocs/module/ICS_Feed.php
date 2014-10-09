@@ -1,6 +1,13 @@
 <?php
 /**
  * Inspired by https://gist.github.com/jakebellacera/635416
+ *
+ * ICS checkers:
+ * - http://icalvalid.cloudapp.net/
+ * - http://severinghaus.org/projects/icv/
+ *
+ * TODO:
+ * - find a solution for sequence and the updates: it should be incremented for each change
  */
 class ICS_Feed extends Aoloe\Module_abstract {
     public function get_content() {

@@ -20,9 +20,9 @@ programm:
 
                         [Aktuelles Jahresprogramm](content/download/bc_oberurdorf_programm.pdf)
                     - |
-                        [![Jahresprogramm](content/page/verein_icon_pdf.gif)](content/download/bc_oberurdorf_statuten.pdf)
+                        [![Jahresprogramm](content/page/programm_icon_ics.gif)](bc-oberurdorf.ics)
 
-                        [Aktuelles Jahresprogramm als ICAL](content/download/bc_oberurdorf_programm.pdf)
+                        [Aktuelles Jahresprogramm als ICAL](programm.ics)
 spielort:
     navigation: 
         label: Spielort
