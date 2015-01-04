@@ -123,3 +123,40 @@ notes: in ics "kein training" wird nicht ausgegeben
   - jQuery 1.7.2 (http://nienpaper.googlecode.com/files/1.7.2.jquery.min.js) and put it into the "js" folder
   - Prefix Free (http://leaverou.github.io/prefixfree/) and put it into the "js" folder
   - SlidesJS (http://www.slidesjs.com/) and put the "jquery.slides.min.js" into the "js" folder
+- ics calender:
+  - https://gist.github.com/jakebellacera/635416
+  - http://kigkonsult.se/eventCreator/index.php
+
+# Upload
+
+    mkdir php-debug
+    mkdir php-markdown
+    mkdir php-module
+    mkdir php-route
+    mkdir php-site
+    mkdir php-template
+    mkdir php-debug/src
+    mkdir php-markdown/src
+    mkdir php-module/src
+    mkdir php-route/src
+    mkdir php-site/src
+    mkdir php-template/src
+
+    cd php-debug/src
+    put -f php-debug/src/Debug.php
+    cd ../..
+    cd php-markdown/src
+    put -f php-markdown/src/Markdown.php
+    cd ../..
+    cd php-module/src
+    put -f php-module/src/Module.php
+    cd ../..
+    cd php-route/src
+    put -f php-route/src/Route.php
+    cd ../..
+    cd php-site/src
+    put -f php-site/src/Site.php
+    cd ../..
+    cd php-template/src
+    put -f php-template/src/Template.php
+    cd ../..
