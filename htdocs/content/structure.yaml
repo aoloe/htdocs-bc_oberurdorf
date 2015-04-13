@@ -4,7 +4,7 @@ home:
         label: Home
     module:
         name: Home
-programm.ics:
+bc-oberurdorf.ics:
     module:
         name: ICS_Feed
 programm:
@@ -20,9 +20,13 @@ programm:
 
                         [Aktuelles Jahresprogramm](content/download/bc_oberurdorf_programm.pdf)
                     - |
-                        [![Jahresprogramm](content/page/programm_icon_ics.gif)](bc-oberurdorf.ics)
+                        [![Jahresprogramm](content/page/programm_ics.png)](bc-oberurdorf.ics)
 
-                        [Aktuelles Jahresprogramm als ICAL](programm.ics)
+                        [Aktuelles Jahresprogramm als ICAL](bc-oberurdorf.ics)
+                    - |
+                        [![Jahresprogramm](http://calendar.google.com/googlecalendar/images/favicon_v2014_11.ico)](https://www.google.com/calendar/render?cid=http%3A%2F%2Fbc-oberurdorf.ch%2Fbc-oberurdorf.ics)
+
+                        [Aktuelles Jahresprogramm für Goolge Calendar](https://www.google.com/calendar/render?cid=http%3A%2F%2Fbc-oberurdorf.ch%2Fbc-oberurdorf.ics)
 spielort:
     navigation: 
         label: Spielort

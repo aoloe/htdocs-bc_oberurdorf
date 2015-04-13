@@ -704,6 +704,8 @@ footer .wrapper .column h4
         {
                 height:120px;
         }
+        /*
+        a.l.e: removing this to avoid the navigation from disappearing...
         header nav
         {
                 right: auto;
@@ -712,6 +714,7 @@ footer .wrapper .column h4
                 top:100px;
                 margin-left: -184px;
         }
+        */
         #spacer
         {
                 height:100px;

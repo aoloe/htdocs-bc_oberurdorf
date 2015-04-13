@@ -75,6 +75,7 @@ class Calendar extends Aoloe\Module_abstract {
             // Aoloe\debug('date', $date);
             $event_item['show_title'] = $item['event'] || !$item['training'];
             $event_item['no_training'] = (!$item['event'] && !$item['training']);
+            $event_item['year'] = $date['year'];
             $event_item['day'] = $date['mday'];
             $event_item['month'] = $this->german_month[$date['mon'] - 1];
             $event_item['title'] = $item['title'];
@@ -97,9 +98,10 @@ class Calendar extends Aoloe\Module_abstract {
         $result =  array();
         // Aoloe\debug('calendar', $this->calendar);
         $event_now = date('Ymd');
+        // Aoloe\debug('event_now', $event_now);
         $i = 0;
         foreach ($this->calendar as $item) {
-            if ($i < 3 && ($item['date'] > $event_now)) {
+            if ($i < 3 && ($item['date'] >= $event_now)) {
                 $i++;
                 $item = $this->get_filled($item);
                 $event = $this->date_iso_to_german($item['date']);
@@ -124,7 +126,7 @@ class Calendar extends Aoloe\Module_abstract {
         $event_now = date('Ymd');
         $i = 0;
         foreach ($this->calendar as $item) {
-            if ($i < 4 && ($item['date'] > $event_now)) {
+            if ($i < 4 && ($item['date'] >= $event_now)) {
                 $i++;
                 $event = array();
                 $item = $this->get_filled($item);

@@ -114,6 +114,7 @@ $(function() {
     <section id="copyright">
         <h3 class="hidden">Copyright notice</h3>
         <div class="wrapper">
+            <!--
             <div class="social">
                 <a href="javascript:void(0)"><img src="img/Social-Networks-Bebo-icon.png" alt="Some alt text" width="25"/></a>
                 <a href="javascript:void(0)"><img src="img/Social-Networks-Google-plus-icon.png" alt="Some alt text" width="25"/></a>
@@ -121,7 +122,8 @@ $(function() {
                 <a href="javascript:void(0)"><img src="img/Logos-Youtube-icon.png" alt="Some alt text" width="25"/></a>
                 <a href="javascript:void(0)"><img src="img/Social-Networks-Xing-icon.png" alt="Some alt text" width="25"/></a>
             </div>
-            &copy; Copyright 2012 by <a href="http://www.example.com">Example</a>. All Rights Reserved.
+            -->
+            by Ale &amp; Katrin<!-- &copy; Copyright 2012 by <a href="http://www.example.com">Example</a>. All Rights Reserved. -->
         </div>
     </section>
 </footer>
