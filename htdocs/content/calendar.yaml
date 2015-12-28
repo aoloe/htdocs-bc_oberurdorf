@@ -79,6 +79,8 @@
 - date: 20151127
 - date: 20151204
 - date: 20151211
+  training: false
+  title: Volleyballtournier
 - date: 20151218
 - date: 20151225
   training: false
@@ -87,8 +89,10 @@
   training: false
   title: Weihnachtsferien
 - date: 20160108
-- date: 20160114
 - date: 20160115
+- date: 20160121
+  event: true
+  title: Generalversammlung
 - date: 20160122
 - date: 20160129
 - date: 20160205

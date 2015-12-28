@@ -31,6 +31,14 @@ h2 {
     text-decoration:underline;
 }
 
+div.warning {
+    border:2px solid #9cc03a;
+    padding:10px;
+    margin-bottom:30px;
+}
+
+
+
 footer {
     height:100px;
 }
