@@ -161,9 +161,13 @@
   title: Herbstferien
 - date: 20161028
 - date: 20161104
+  training: false
+  title: Die halle ist besetzt
 - date: 20161111
 - date: 20161118
 - date: 20161125
+  event: true
+  title: Samichlaus im Filzball (kein Training)
 - date: 20161202
 - date: 20161209
 - date: 20161216
