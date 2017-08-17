@@ -1,8 +1,8 @@
 # Badminton Club Oberurdorf
 
-Wir haben den Plausch am Sport, möchten regelmässig spielen, aber ohne Verpflichtung, Ämter und Turniere.
+Wir haben Plausch am Sport, möchten regelmässig spielen, aber ohne Verpflichtung, Ämter und Turniere.
 
-Wir sind wild gemischt, Männer und Frauen, 20-Jährige ebenso wie Mitfünziger. 
+Wir sind eine gemischte Gruppe, Frauen und Männer, von 20-Jährigen bis Mittfünfziger. 
 
 Mitmachen kannst Du bei uns, sobald Du 18 Jahre alt bist. Vorkenntnisse brauchst Du nicht, es gilt Learning by doing.
 
