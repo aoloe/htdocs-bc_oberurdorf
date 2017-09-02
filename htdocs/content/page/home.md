@@ -10,6 +10,15 @@ Interessiert? Komm einfach [vorbei](spielort), frage nach Rainer, Markus oder Cu
 
 ## News
 
+![volleyball](/page/images/volleyballnacht.jpg)
+
+<div class="warning">
+Am 11. November 2017 findet die Limmattaler Volleyballnacht statt: deshalb kein Badminton!<p>
+
+Wie üblich können wir eine Alternative über Whatsup organisieren!
+</div>
+
+
 [![](/page/images/limmattaler-20151119-bc-oberurdorf.png)](http://www.limmattalerzeitung.ch/limmattal/region-limmattal/der-verein-ohne-lizenz-plausch-statt-zwang-129743735)
 
 Am 19 November hat die Limmattaler Zeitung einen Artikel über unseren Verein geschrieben: [Der Verein ohne Lizenz: Plausch statt Zwang](http://www.limmattalerzeitung.ch/limmattal/region-limmattal/der-verein-ohne-lizenz-plausch-statt-zwang-129743735)
