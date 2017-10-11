@@ -13,9 +13,9 @@ Interessiert? Komm einfach [vorbei](spielort), frage nach Rainer, Markus oder Cu
 ![volleyball](/page/images/volleyballnacht.jpg)
 
 <div class="warning">
-Am 11. November 2017 findet die Limmattaler Volleyballnacht statt: deshalb kein Badminton!<p>
+Am 10. November 2017 findet die Limmattaler Volleyballnacht statt: deshalb kein Badminton!<p>
 
-Wie üblich können wir eine Alternative über Whatsup organisieren!
+Als Ersatz: Plausch-Nachtessen gegen 20:00 am 10 November ins Restaurant „Filzball“ in Urdorf.
 </div>
 
 
