@@ -102,6 +102,20 @@ Evtl.
 
 notes: in ics "kein training" wird nicht ausgegeben
 
+# Snippets
+
+## Warning on the Home page
+
+```md
+![volleyball](/page/images/volleyballnacht.jpg)
+
+<div class="warning">
+Am 10. November 2017 findet die Limmattaler Volleyballnacht statt: deshalb kein Badminton!<p>
+
+Als Ersatz: Plausch-Nachtessen gegen 20:00 am 10 November ins Restaurant „Filzball“ in Urdorf.
+</div>
+```
+
 # Todo
 
 - remove bullets from `slider_content` liste and fix the indent

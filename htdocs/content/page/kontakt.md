@@ -2,7 +2,8 @@
 
 ## Kontaktpersonen:
 
-Silvan Weber
+Silvan Weber  
+[silvan.weber@bc-oberurdorf.ch](mailto:silvan.weber@bc-oberurdorf.ch)
 
 Markus Hogenschurz  
 Tel. 079 433 91 28  

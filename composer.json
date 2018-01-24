@@ -7,6 +7,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:aoloe/php-php.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:aoloe/php-deploy-git.git"
         },
         {
@@ -34,10 +38,10 @@
         "mustangostang/spyc": "0.5.*@dev",
         "michelf/php-markdown": "1.4.1",
         "aoloe/php-debug" : "dev-master",
+        "aoloe/php-php" : "dev-master",
         "aoloe/php-deploy-git" : "dev-master",
         "aoloe/php-markdown" : "dev-master",
         "aoloe/php-module" : "dev-master",
-        "aoloe/php-deploy-git" : "dev-master",
         "aoloe/php-route" : "dev-master",
         "aoloe/php-site" : "dev-master",
         "aoloe/php-template" : "dev-master"
