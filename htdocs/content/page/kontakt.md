@@ -2,9 +2,7 @@
 
 ## Kontaktpersonen:
 
-Rainer Bendel  
-Tel. 079 679 45 60  
-[rainer.bendel.urdorf@gmail.com](mailto:rainer.bendel.urdorf@gmail.com)
+Silvan Weber
 
 Markus Hogenschurz  
 Tel. 079 433 91 28  

@@ -6,18 +6,9 @@ Wir sind eine gemischte Gruppe, Frauen und Männer, von 20-Jährigen bis Mittfü
 
 Mitmachen kannst Du bei uns, sobald Du 18 Jahre alt bist. Vorkenntnisse brauchst Du nicht, es gilt Learning by doing.
 
-Interessiert? Komm einfach [vorbei](spielort), frage nach Rainer, Markus oder Curzio!
+Interessiert? Komm einfach [vorbei](spielort), frage nach Silvan, Markus oder Curzio!
 
 ## News
-
-![volleyball](/page/images/volleyballnacht.jpg)
-
-<div class="warning">
-Am 10. November 2017 findet die Limmattaler Volleyballnacht statt: deshalb kein Badminton!<p>
-
-Als Ersatz: Plausch-Nachtessen gegen 20:00 am 10 November ins Restaurant „Filzball“ in Urdorf.
-</div>
-
 
 [![](/page/images/limmattaler-20151119-bc-oberurdorf.png)](http://www.limmattalerzeitung.ch/limmattal/region-limmattal/der-verein-ohne-lizenz-plausch-statt-zwang-129743735)
 
